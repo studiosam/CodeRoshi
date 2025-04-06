@@ -19,7 +19,8 @@
     {
       "path": "/booking",
       "page": "booking",
-      "layout": "main"
+      "layout": "main",
+      "name": "Booking"
     },
     {
       "path": "/content-library",
@@ -29,6 +30,16 @@
     {
       "path": "/login",
       "page": "login",
+      "layout": "main"
+    },
+    {
+      "path": "/about",
+      "page": "about",
+      "layout": "main"
+    },
+    {
+      "path": "/contact",
+      "page": "contact",
       "layout": "main"
     }
   ]

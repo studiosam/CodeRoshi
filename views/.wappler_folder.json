@@ -22,5 +22,17 @@
   "login.ejs": {
     "layoutPage": "main",
     "description": "Login to the site"
+  },
+  "about.ejs": {
+    "layoutPage": "main",
+    "description": "About Code Roshi"
+  },
+  "services.ejs": {
+    "layoutPage": "main",
+    "description": "Services offered at Code Roshi"
+  },
+  "contact.ejs": {
+    "layoutPage": "main",
+    "description": "Contact Code Roshi"
   }
 }
