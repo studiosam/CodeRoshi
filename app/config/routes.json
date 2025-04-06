@@ -5,6 +5,31 @@
       "page": "index",
       "routeType": "page",
       "layout": "main"
+    },
+    {
+      "path": "/dashboard",
+      "page": "dashboard",
+      "layout": "main"
+    },
+    {
+      "path": "/admin",
+      "page": "admin",
+      "layout": "main"
+    },
+    {
+      "path": "/booking",
+      "page": "booking",
+      "layout": "main"
+    },
+    {
+      "path": "/content-library",
+      "page": "content-library",
+      "layout": "main"
+    },
+    {
+      "path": "/login",
+      "page": "login",
+      "layout": "main"
     }
   ]
 }

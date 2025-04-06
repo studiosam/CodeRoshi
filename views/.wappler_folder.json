@@ -1,0 +1,26 @@
+{
+  "index.ejs": {
+    "layoutPage": "main",
+    "description": "Navigation:\nCTA Button: 'Get Started' links to Sign-Up Page\nLogin Button: Takes existing users to login screen\nChanges to User Profile Button when user is logged in\nThis button takes the user to their dashboard\n'Why Code Roshi' links to About Page\n'Services Offered' links to Services Page\n'Student Success Stories' links to Testimonials Page\nSocial Media icons open respective profiles in a new tab\nFunctions:\nSmooth scrolling between sections\nResponsive design for mobile and desktop\nHero Area:\nLarge background image (photo of you)\nMain headline: \"Personalized Coding Mentorship, One Student at a Time\"\nSubheading: \"Guiding young coders to master problem-solving through hands-on projects and AI-driven insights.\"\nCTA Button: \"Get Started\" (links to sign-up)\nKey Sections:\nWhy Code Roshi (brief overview)\nHow It Works (step-by-step)\nStudent Success Stories (testimonial slider)\nServices Offered (card layout)\nFooter: Contact info, quick links, social media"
+  },
+  "dashboard.ejs": {
+    "layoutPage": "main",
+    "description": "Navigation:\nHome: Redirects to Homepage\nDashboard: Refreshes the current view\nVideo Library: Opens full library page\nBook a Session: Opens Booking Page\nProfile: Opens account management page\nLogout: Logs out and redirects to the login page\nFunctions:\nJoin a Session: Opens Video Chat for session at specified time\nSession Booking: Direct booking from calendar view\nProject Upload: Upload new project and view recent projects\nVideo Playback: Directly watch videos from the dashboard\nRecords and stores past sessions for playback\nReferral Tracker: View points and next reward level\nNotifications: Dismiss or mark as read\nHeader:\nLogo on the left\nNavigation: Home, Dashboard, Video Library, Book a Session, Profile, Logout\nMain Area:\nUpcoming Sessions:\nCalendar view\nJoin Session\nQuick booking button\nRecent Projects:\nList of recent uploads\nButton to add a new project\nVideo Library:\nFeatured Videos\nSearch bar\nReferral Program:\nCurrent points, next milestone\nNotifications:\nRecent alerts (session reminders, new videos)"
+  },
+  "admin.ejs": {
+    "layoutPage": "main",
+    "description": "Navigation:\nUsers: View, search, and manage user accounts\nSessions: Manage upcoming and past sessions\nSubscriptions: View current plans, make adjustments\nVideos: Upload, edit, or delete content\nRewards: Manage point adjustments and swag shop inventory\nReports: View analytics on users, sessions, and revenue\nLogout: Logs out of the admin dashboard\nFunctions:\nUser Editing: Update profiles, reset passwords\nSubscription Adjustment: Grant credits, issue refunds\nVideo Management: Upload new videos, categorize\nSwag Shop: Adjust inventory, manage orders\nReporting: Export data as CSV or PDF\nHeader:\nAdmin menu: Users, Sessions, Subscriptions, Videos, Rewards, Reports, Logout\nMain Area:\nUser Management:\nSearch by name or email\nTable with user status (active, inactive)\nAction buttons: Edit, Adjust Subscription, Reset Password\nSubscription Adjustments:\nAdd points, grant credits, refund\nLog of recent changes\nVideo Management:\nUpload new video\nOrganize by topic\nEdit tags\nSwag Shop Management:\nTrack inventory\nRecent redemptions\nReporting:\nGraph of active users over time\nMonthly revenue and referral impact"
+  },
+  "booking.ejs": {
+    "layoutPage": "main",
+    "description": "Navigation:\nBack to Dashboard: Return to the user dashboard\nFunctions:\nCalendar Selection: Pick a date and time\nTutor Availability: Show only available slots\nConfirmation: Display booking details and confirmation message\nRescheduling: Modify an existing booking\nCancellation: Issue refund if within cancellation period\nBooking Confirmation: Redirects to dashboard with success message\nCalendar View:\nSelect date and time\nFilter by tutor availability\nSession Details:\nConfirm button\nReschedule or cancel options\nPayment summary if applicable"
+  },
+  "content-library.ejs": {
+    "layoutPage": "main",
+    "description": "Navigation:\nSearch: Filter videos by title, topic, or unlock status\nVideo Playback: Open selected video in a dedicated viewer\nFunctions:\nPlay Video: Stream directly from the dashboard\nDownload Option: Available for unlocked content\nProgress Tracking: Show how many videos are unlocked\nFavorite Videos: Mark frequently watched videos for quick access\nSearch Bar:\nPlaceholder text: \"Find your next coding challenge\"\nFeatured Videos:\nHighlight newest and most popular content\nVideo Grid:\nFree and unlocked videos labeled\nProgress Tracker at the top: \"8/20 videos unlocked\""
+  },
+  "login.ejs": {
+    "layoutPage": "main",
+    "description": "Login to the site"
+  }
+}

@@ -9,11 +9,24 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="/bootstrap/5/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/css/style.css" />
+  <script src="/dmxAppConnect/dmxRouting/dmxRouting.js" defer></script>
+  <script src="/dmxAppConnect/dmxBootstrap5Navigation/dmxBootstrap5Navigation.js" defer></script>
+  <link rel="stylesheet" href="/bootstrap/5/css/bootstrap.min.css" />
 </head>
 
 <body is="dmx-app" id="main">
+  <header class="style2">
+    <div class="d-flex justify-content-between flex-row">
+      <img class="style1" src="/assets/images/CodeRoshi.png" width="100">
+      <div class="nav w-100">
+        <a class="nav-item nav-link" href="/login">Login</a>
+      </div>
+    </div>
+
+
+
+  </header>
   <main is="dmx-view" id="content">
     <%- await include(content, locals); %>
   </main>
